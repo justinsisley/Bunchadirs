@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+'use strict';
+
+var fs = require('fs');
+
+exports.bunchadirs = function(dirs) {
+  var dirs = dirs.split('/');
+  var parentDir = '';
+
+  var compoundDirs;
+
+  for (var i = 0, l = dirs.length; i < l; i++) {
+    if (dirs[i].indexOf(',') === -1) {
+      if (parentDir) {
+        fs.mkdirSync(parentDir + '/' + dirs[i]);
+      } else {
+        if (fs.readdirSync(dirs[i]).length === 0) {
+          fs.mkdirSync(dirs[i]);
+        }
+      }
+
+      if (parentDir) {
+        parentDir = parentDir + '/' + dirs[i];
+      } else {
+        parentDir = parentDir + dirs[i];
+      }
+    } else {
+      compoundDirs = dirs[i].split(',');
+
+      for (var j = 0, k = compoundDirs.length; j < k; j++) {
+        if (parentDir) {
+          fs.mkdirSync(parentDir + '/' + compoundDirs[j]);
+        } else {
+          if (fs.readdirSync(dirs[i]).length === 0) {
+            fs.mkdirSync(compoundDirs[j]);
+          }
+        }
+      }
+    }
+  }
+}

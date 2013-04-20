@@ -1,0 +1,22 @@
+{
+  "name": "Bunchadirs",
+  "version": "0.0.1",
+  "description": "A friendly directory creation utility",
+  "keywords": [],
+  "author": "Justin Sisley",
+  "main": "bin/bunchadirs",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/justinsisley/Bunchadirs.git"
+    },
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "preferGlobal": true,
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ]
+}
