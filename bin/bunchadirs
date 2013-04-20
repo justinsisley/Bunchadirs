@@ -11,10 +11,10 @@ function bunchadirs(dirs) {
 
   for (var i = 0, l = dirs.length; i < l; i++) {
     if (dirs[i].indexOf(',') === -1) {
-      if (parentDir) {
-        fs.mkdirSync(parentDir + '/' + dirs[i]);
-      } else {
-        if (fs.readdirSync(dirs[i]).length === 0) {
+      if (fs.readdirSync(dirs[i]).length === 0) {
+        if (parentDir) {
+          fs.mkdirSync(parentDir + '/' + dirs[i]);
+        } else {
           fs.mkdirSync(dirs[i]);
         }
       }
