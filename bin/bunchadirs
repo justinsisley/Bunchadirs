@@ -3,7 +3,7 @@
 
 var fs = require('fs');
 
-exports.bunchadirs = function(dirs) {
+function bunchadirs(dirs) {
   var dirs = dirs.split('/');
   var parentDir = '';
 
@@ -39,3 +39,5 @@ exports.bunchadirs = function(dirs) {
     }
   }
 }
+
+module.exports = bunchadirs;
