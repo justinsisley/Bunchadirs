@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.4/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose publish [ '.' ]
+5 verbose read json /Users/justinsisley/Experiments/www/bunchadirs/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/justinsisley/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+14 verbose folder .
+15 info prepublish bunchadirs@0.0.4
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/justinsisley/.npm/3a52ce78-.lock
+18 silly lockFile a5e006fc-34818-0-6441077950876206-tmp-tgz /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+19 verbose lock /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz /Users/justinsisley/.npm/a5e006fc-34818-0-6441077950876206-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile a5e006fc-34818-0-6441077950876206-tmp-tgz /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+23 silly lockFile a5e006fc-34818-0-6441077950876206-tmp-tgz /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+24 verbose tar unpack /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+25 silly lockFile f36834c7-34818-0-6441077950876206-package /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+26 verbose lock /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package /Users/justinsisley/.npm/f36834c7-34818-0-6441077950876206-package.lock
+27 silly lockFile a5e006fc-34818-0-6441077950876206-tmp-tgz /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+28 verbose lock /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz /Users/justinsisley/.npm/a5e006fc-34818-0-6441077950876206-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry bin/bunchadirs
+33 verbose read json /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package/package.json
+34 silly lockFile f36834c7-34818-0-6441077950876206-package /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+35 silly lockFile f36834c7-34818-0-6441077950876206-package /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+36 silly lockFile a5e006fc-34818-0-6441077950876206-tmp-tgz /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+37 silly lockFile a5e006fc-34818-0-6441077950876206-tmp-tgz /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/tmp.tgz
+38 verbose from cache /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package/package.json
+39 verbose tar pack [ '/Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz',
+39 verbose tar pack   '/var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package' ]
+40 verbose tarball /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+41 verbose folder /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+42 silly lockFile f36834c7-34818-0-6441077950876206-package /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+43 verbose lock /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package /Users/justinsisley/.npm/f36834c7-34818-0-6441077950876206-package.lock
+44 silly lockFile 6f86f7fd-npm-bunchadirs-0-0-4-package-tgz /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+45 verbose lock /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz /Users/justinsisley/.npm/6f86f7fd-npm-bunchadirs-0-0-4-package-tgz.lock
+46 silly lockFile f36834c7-34818-0-6441077950876206-package /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+47 silly lockFile f36834c7-34818-0-6441077950876206-package /var/folders/6j/2sv2zsdn5rs83v_yx41yr3040000gn/T/npm-1638/1366571134818-0.6441077950876206/package
+48 silly lockFile 6f86f7fd-npm-bunchadirs-0-0-4-package-tgz /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+49 silly lockFile 6f86f7fd-npm-bunchadirs-0-0-4-package-tgz /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+50 silly lockFile 1b242b25-ley-npm-bunchadirs-0-0-4-package /Users/justinsisley/.npm/bunchadirs/0.0.4/package
+51 verbose lock /Users/justinsisley/.npm/bunchadirs/0.0.4/package /Users/justinsisley/.npm/1b242b25-ley-npm-bunchadirs-0-0-4-package.lock
+52 silly lockFile 1b242b25-ley-npm-bunchadirs-0-0-4-package /Users/justinsisley/.npm/bunchadirs/0.0.4/package
+53 silly lockFile 1b242b25-ley-npm-bunchadirs-0-0-4-package /Users/justinsisley/.npm/bunchadirs/0.0.4/package
+54 verbose tar unpack /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+55 silly lockFile 1b242b25-ley-npm-bunchadirs-0-0-4-package /Users/justinsisley/.npm/bunchadirs/0.0.4/package
+56 verbose lock /Users/justinsisley/.npm/bunchadirs/0.0.4/package /Users/justinsisley/.npm/1b242b25-ley-npm-bunchadirs-0-0-4-package.lock
+57 silly lockFile 6f86f7fd-npm-bunchadirs-0-0-4-package-tgz /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+58 verbose lock /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz /Users/justinsisley/.npm/6f86f7fd-npm-bunchadirs-0-0-4-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry bin/bunchadirs
+63 verbose read json /Users/justinsisley/.npm/bunchadirs/0.0.4/package/package.json
+64 silly lockFile 1b242b25-ley-npm-bunchadirs-0-0-4-package /Users/justinsisley/.npm/bunchadirs/0.0.4/package
+65 silly lockFile 1b242b25-ley-npm-bunchadirs-0-0-4-package /Users/justinsisley/.npm/bunchadirs/0.0.4/package
+66 silly lockFile 6f86f7fd-npm-bunchadirs-0-0-4-package-tgz /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+67 silly lockFile 6f86f7fd-npm-bunchadirs-0-0-4-package-tgz /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+68 silly shasum updated bytes 889
+69 info shasum 7e2aaf6a435d71fc9296645857ab2afc5f7ce035
+69 info shasum /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz
+70 verbose from cache /Users/justinsisley/.npm/bunchadirs/0.0.4/package/package.json
+71 verbose chmod /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz 644
+72 verbose chown /Users/justinsisley/.npm/bunchadirs/0.0.4/package.tgz [ 501, 20 ]
+73 silly lockFile 3a52ce78- .
+74 silly publish { name: 'bunchadirs',
+74 silly publish   version: '0.0.4',
+74 silly publish   description: 'A friendly directory creation utility',
+74 silly publish   keywords: [],
+74 silly publish   author: { name: 'Justin Sisley' },
+74 silly publish   main: 'bin/bunchadirs',
+74 silly publish   repository:
+74 silly publish    { type: 'git',
+74 silly publish      url: 'git://github.com/justinsisley/Bunchadirs.git' },
+74 silly publish   dependencies: {},
+74 silly publish   engines: { node: '>=0.8.0' },
+74 silly publish   preferGlobal: true,
+74 silly publish   licenses: [ { type: 'BSD' } ],
+74 silly publish   readme: '# Bunchadirs\n## A friendly directory creation utility\n\n### Installation\n\n`npm install bunchadirs`\n\n### Basic Usage\n\n`bunchadirs(\'parent/child/grandchild-1,grandchild-2,grandchild-3\');`\n\nThis will create the following directory structure:\n- ./parent/\n- ./parent/child/\n- ./parent/child/grandchild-1\n- ./parent/child/grandchild-2\n- ./parent/child/grandchild-3',
+74 silly publish   readmeFilename: 'README.md',
+74 silly publish   _id: 'bunchadirs@0.0.4',
+74 silly publish   dist: { shasum: '7e2aaf6a435d71fc9296645857ab2afc5f7ce035' },
+74 silly publish   _from: '.' }
+75 verbose url raw bunchadirs
+76 verbose url resolving [ 'https://registry.npmjs.org/', './bunchadirs' ]
+77 verbose url resolved https://registry.npmjs.org/bunchadirs
+78 info trying registry request attempt 1 at 12:05:45
+79 http PUT https://registry.npmjs.org/bunchadirs
+80 http 409 https://registry.npmjs.org/bunchadirs
+81 verbose url raw bunchadirs
+82 verbose url resolving [ 'https://registry.npmjs.org/', './bunchadirs' ]
+83 verbose url resolved https://registry.npmjs.org/bunchadirs
+84 info trying registry request attempt 1 at 12:05:47
+85 http GET https://registry.npmjs.org/bunchadirs
+86 http 200 https://registry.npmjs.org/bunchadirs
+87 error publish fail Cannot publish over existing version.
+87 error publish fail Update the 'version' field in package.json and try again.
+87 error publish fail
+87 error publish fail If the previous version was published in error, see:
+87 error publish fail     npm help unpublish
+87 error publish fail
+87 error publish fail To automatically increment version numbers, see:
+87 error publish fail     npm help version
+88 error System Darwin 12.3.0
+89 error command "/usr/local/Cellar/node/0.10.4/bin/node" "/usr/local/bin/npm" "publish"
+90 error cwd /Users/justinsisley/Experiments/www/bunchadirs
+91 error node -v v0.10.4
+92 error npm -v 1.2.18
+93 error code EPUBLISHCONFLICT
+94 verbose exit [ 1, true ]
