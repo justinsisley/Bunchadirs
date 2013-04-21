@@ -34,9 +34,13 @@ function bunchadirs(dirs) {
 
       for (var j = 0, k = compoundDirs.length; j < k; j++) {
         if (parentDir) {
-          fs.mkdirSync(parentDir + '/' + compoundDirs[j]);
+          try {
+            fs.mkdirSync(parentDir + '/' + compoundDirs[j]);
+          } catch(e) {}
         } else {
-          fs.mkdirSync(compoundDirs[j]);
+          try {
+            fs.mkdirSync(compoundDirs[j]);
+          } catch(e) {}
         }
       }
     }
